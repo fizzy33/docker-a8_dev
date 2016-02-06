@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+cd /usr/local/_packages/zinc-0.3.7/bin
+./zinc -start
