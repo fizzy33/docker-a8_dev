@@ -1,0 +1,9 @@
+docker \
+    run \
+    -d \
+    -t \
+    -i \
+    -v /Users/glen/.m2/:/root/.m2/ \
+    -v /Users/glen/code/:/code/ \
+    -v /Users/glen/.ssh/:/root/.ssh/ \
+    --name a8_dev fizzy33/a8_dev
